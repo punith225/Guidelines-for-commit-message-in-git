@@ -72,83 +72,29 @@ feat: Add dark mode toggle to the settings page
 
 ## 🎯 Types of Commit Messages (with Examples)
 
-| **Type**      | **Description** | **Example** |
-|--------------|---------------|------------|
-| **feat**     | A new feature added to the application | `feat: Add dark mode support` |
-| **fix**      | A bug fix | `fix: Resolve form validation error for email input` |
-| **style**    | CSS changes, formatting, or UI improvements | `style: Update button styles for better accessibility` |
-| **refactor** | Code refactoring without adding new features or fixing bugs | `refactor: Optimize data fetching logic` |
-| **test**     | Changes related to testing | `test: Add unit tests for login functionality` |
-| **docs**     | Documentation updates | `docs: Update README with setup instructions` |
-| **chore**    | Maintenance tasks (dependencies, build updates, etc.) | `chore: Update npm dependencies to latest versions` |
-
----
-
-## 📉 Detailed Examples
-
-### **1. `feat`: Adding a New Feature**
-```plaintext
-feat: Add multi-language support
-
-- Integrated i18next library for handling translations.
-- Added support for English and Spanish languages.
-- Created a language switcher dropdown in the navbar.
-- Ensured dynamic content updates based on the selected language.
-```
-
-### **2. `fix`: Fixing a Bug**
-```plaintext
-fix: Fix broken navigation menu on mobile devices
-
-- Fixed an issue where the navigation menu wouldn’t open on small screens.
-- Adjusted CSS styles to properly align menu items.
-- Tested across multiple screen sizes for consistency.
-```
-
-### **3. `style`: Styling Updates**
-```plaintext
-style: Improve hover effects for buttons
-
-- Added smooth transitions for hover effects.
-- Adjusted button colors for better contrast and readability.
-- Ensured consistency across all pages.
-```
-
-### **4. `refactor`: Code Refactoring**
-```plaintext
-refactor: Simplify API response handling
-
-- Moved duplicate API response processing logic to a helper function.
-- Reduced redundant code in multiple components.
-- Ensured the refactored function is well-tested and maintains the same functionality.
-```
-
-### **5. `test`: Adding or Updating Tests**
-```plaintext
-test: Add integration tests for user authentication flow
-
-- Created Cypress tests to cover login and logout processes.
-- Validated form input fields, error messages, and successful login redirection.
-- Ensured proper handling of invalid credentials.
-```
-
-### **6. `docs`: Updating Documentation**
-```plaintext
-docs: Add a setup guide for new contributors
-
-- Created a CONTRIBUTING.md file to explain how to set up the project.
-- Added steps for installing dependencies and running the development server.
-- Included guidelines for writing commit messages and submitting pull requests.
-```
-
-### **7. `chore`: Maintenance Tasks**
-```plaintext
-chore: Clean up unused files and optimize assets
-
-- Removed old CSS files that are no longer in use.
-- Updated `.gitignore` to exclude unnecessary logs and temp files.
-- Optimized remaining images for faster load times.
-```
+| **Type**       | **Description**                                        | **Example** |
+|---------------|------------------------------------------------|------------|
+| `new`        | for new feature implementing commit               | `new: Implement AI assistant` |
+| `feat / feature` | for new feature implementing commit (equal `new`) | `feat: Add payment gateway` |
+| `update`     | for update commit                                 | `update: Improve dashboard layout` |
+| `bug`        | for bug fix commit                                | `bug: Fix checkout page crash` |
+| `security`   | for security issue fix commit                     | `security: Patch XSS vulnerability` |
+| `performance`| for performance issue fix commit                  | `performance: Optimize image loading` |
+| `improvement`| for backwards-compatible enhancement commit       | `improvement: Enhance search functionality` |
+| `breaking`   | for backwards-incompatible enhancement commit     | `breaking: Remove legacy API support` |
+| `deprecated` | for deprecated feature commit                     | `deprecated: Mark old payment method as deprecated` |
+| `i18n`       | for i18n (internationalization) commit            | `i18n: Add French translations` |
+| `a11y`       | for a11y (accessibility) commit                   | `a11y: Improve keyboard navigation` |
+| `refactor`   | for refactoring commit                            | `refactor: Modularize authentication service` |
+| `docs`       | for documentation commit                          | `docs: Update API documentation` |
+| `example`    | for example code commit                           | `example: Add sample config files` |
+| `test`       | for testing commit                                | `test: Add unit tests for user model` |
+| `deps`       | for dependencies upgrading or downgrading commit  | `deps: Upgrade React to v18` |
+| `config`     | for configuration commit                          | `config: Update ESLint rules` |
+| `build`      | for packaging or bundling commit                  | `build: Optimize Webpack config` |
+| `release`    | for publishing commit                             | `release: Prepare v2.0.0` |
+| `wip`        | for work in progress commit                       | `wip: Initial setup for new module` |
+| `chore`      | for other operations commit                       | `chore: Clean up unused files` |
 
 ---
 
