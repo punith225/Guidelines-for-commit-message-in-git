@@ -164,7 +164,6 @@ chore: Clean up unused files and optimize assets
 ## 📚 Additional Resources
 - [FreeCodeCamp: Writing Good Commit Messages](https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/)
 - [TheServerSide: Git Commit Message Guidelines](https://www.theserverside.com/video/Follow-these-git-commit-message-guidelines)
-- [Commitizen CLI](https://github.com/commitizen/cz-cli?tab=readme-ov-file)
 
 ---
 
@@ -176,6 +175,4 @@ chore: Clean up unused files and optimize assets
 
 ---
 
-## 💡 Questions or Feedback?
-If you have any questions or suggestions, feel free to share! Happy coding! 🚀
 
